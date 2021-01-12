@@ -1,5 +1,7 @@
 <h1>Содержание<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Рекомендация-тарифов" data-toc-modified-id="Рекомендация-тарифов-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Рекомендация тарифов</a></span><ul class="toc-item"><li><span><a href="#Описание-проекта" data-toc-modified-id="Описание-проекта-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Описание проекта</a></span></li><li><span><a href="#Описание-данных" data-toc-modified-id="Описание-данных-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Описание данных</a></span></li><li><span><a href="#Вывод" data-toc-modified-id="Вывод-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Вывод</a></span><ul class="toc-item"><li><span><a href="#Значения-метрики-accuracy" data-toc-modified-id="Значения-метрики-accuracy-1.3.1"><span class="toc-item-num">1.3.1&nbsp;&nbsp;</span>Значения метрики accuracy</a></span></li><li><span><a href="#Значения-метрики-ROC-AUC" data-toc-modified-id="Значения-метрики-ROC-AUC-1.3.2"><span class="toc-item-num">1.3.2&nbsp;&nbsp;</span>Значения метрики ROC-AUC</a></span></li></ul></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Рекомендация-тарифов" data-toc-modified-id="Рекомендация-тарифов-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Рекомендация тарифов</a></span><ul class="toc-item"><li><span><a href="#Описание-проекта" data-toc-modified-id="Описание-проекта-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Описание проекта</a></span></li><li><span><a href="#Описание-данных" data-toc-modified-id="Описание-данных-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Описание данных</a></span></li><li><span><a href="#Вывод" data-toc-modified-id="Вывод-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Вывод</a></span><ul class="toc-item"><li><span><a href="#Значения-метрики-accuracy" data-toc-modified-id="Значения-метрики-accuracy-1.3.1"><span class="toc-item-num">1.3.1&nbsp;&nbsp;</span>Значения метрики accuracy</a></span></li></ul></li></ul></li></ul></div>
+
+
 
 # Рекомендация тарифов
 
@@ -17,16 +19,11 @@
 - is_ultra — каким тарифом пользовался в течение месяца («Ультра» — 1, «Смарт» — 0).
 
 ## Вывод
-Наиболее адекватные предсказания делает Random Forest, это видно по точности предсказания на валидационной и на тестовой выборке, так же это подтверждает метрика ROC-AUC: кривая Random Forest находится выше остальных, если говорить с более определенно, то данная модель имеется наибольшую площадь под графиком
+Наиболее адекватные предсказания делает Random Forest, это видно по точности предсказания на валидационной и на тестовой выборке.
 ### Значения метрики accuracy
 Logistic Regression: 0.76  
 
 Random Forest: 0.80  
 
 Decision Tree: 0.77  
-### Значения метрики ROC-AUC
-Logistic Regression: 0.62  
 
-Random Forest: 0.74  
-
-Decision Tree: 0.70  
